@@ -1,0 +1,21 @@
+Entities and their Attributes:
+
+books {ISBN (pk),author_name,category,language,publication_age}
+fiction {ISBN (pk),author_name,category,language,publication_age,genre}
+non_fiction {ISBN (pk),author_name,category,language,publication_age,subjects}
+
+student {std_id(pk),std_name,std_address,std_email,std_ph_no,std_age}
+
+staff {staff_id (pk),staff_name,staff_experience}
+
+records {record_id (pk),borrow_date,return_date}
+
+authentication_system{login_id (pk),password}
+
+Assumptions:
+
+A student can reserve many books but one book can be reserved by only one student. The relationship 1:m.
+staff keeps track of students. The relationship is m:n.
+staff maintains multiple Books. The relationship 1:m.
+staff maintains multiple records. The relationship 1:m.
+authentication_system provides login to multiple staffs. The relation is 1:m.

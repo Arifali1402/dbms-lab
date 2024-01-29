@@ -1,0 +1,9 @@
+Assumptions for Motor Vehicle Branch ER Diagram:
+
+	1. One candidate can give many exams.
+	2. Many Instructors can take many exams.
+	3. Many Instructors can issue many Driving License.
+	4. One candidate can obtained many Driving License.
+	5. License can be of two types:
+		i. Learner License
+		ii. Main License.

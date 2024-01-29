@@ -1,0 +1,8 @@
+ASSUMPTIONS ON ER DIAGRAM ON THE APPLICATION MODEL OF SOCCER TEAM:
+
+	1. One Team consists of many Players ( 1-m Relationship).
+	2. One Team can have many Coaches ( 1-m Relationship).
+	3. One Team can play many Matches ( 1-m Relationship).
+	4. Match can be of two different types:
+		i. League Matches (league_name,league_pts,league_position).
+		i. International Matches (int_name,int_pts,int_position).
