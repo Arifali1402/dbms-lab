@@ -1,0 +1,10 @@
+ASSUMPTIONS ON ER DIAGRAM ON EDUCATTIONAL INSTITUTE:
+
+	1. A student can  but stay in one hostel but one one hostel can accomodate many students. So, the relationship is 1:m.
+	2. Many students can study in one department. So, the relationship is 1:m.
+	3. Different departments contains many number of faculty memebers. So, the relationship m:n.
+	4. A student can be assigned to many projects. So, the relationship is 1:m.
+	5. Hostel can be of two types:
+		i. Boys Hostel.
+		ii. Girls Hostel.
+
